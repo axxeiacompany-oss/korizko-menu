@@ -23,14 +23,9 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({ onOpenFlyer, onExploreMe
           <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-amber-500/20 via-yellow-400/30 to-amber-600/20 blur-md opacity-75 group-hover:opacity-100 transition duration-500" />
           <div className="relative rounded-2xl overflow-hidden border border-amber-400/40 bg-black max-w-[280px] sm:max-w-[340px] mx-auto shadow-2xl shadow-black/80">
             <img
-              src="/public/assets/aistudio/WhatsApp_Image_2026-11-06_at_15.12.12_c7354d9c.jpeg"
+              src="/assets/aistudio/WhatsApp_Image_2026-11-06_at_15.12.12_c7354d9c.jpeg"
               alt="KORIZKO - Pães Artesanais, Bolos, Brownies"
               className="w-full h-auto object-contain block hover:scale-[1.02] transition-transform duration-300"
-              onError={(e) => {
-                // Fallback to /assets/... if /public/... is served directly
-                (e.target as HTMLImageElement).src =
-                  '/assets/aistudio/WhatsApp_Image_2026-11-06_at_15.12.12_c7354d9c.jpeg';
-              }}
             />
           </div>
         </div>

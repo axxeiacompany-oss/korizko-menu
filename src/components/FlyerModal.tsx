@@ -19,12 +19,12 @@ export const FlyerModal: React.FC<FlyerModalProps> = ({
   const flyers = {
     marmitas: {
       title: 'Folheto Oficial - Marmitas',
-      image: '/public/assets/aistudio/image_195f09af.png',
+      image: '/assets/aistudio/image_195f09af.png',
       subtitle: 'Cardápio de Marmitas ₲ 25.000',
     },
     combos: {
       title: 'Folheto Oficial - Combos Especiais',
-      image: '/public/assets/aistudio/image_aadd37f3.png',
+      image: '/assets/aistudio/image_aadd37f3.png',
       subtitle: 'Combos Almoço & Janta a partir de Gs 40.000',
     },
   };

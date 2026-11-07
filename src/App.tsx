@@ -30,56 +30,56 @@ const MENU_DATA: MenuCategoryDef[] = [
         name: 'Milanesa de Carne',
         price: 25000,
         desc: 'Acompanha arroz branco, feijão e purê de batata cremoso',
-        img: '/src/assets/images/marmita_milanesa_1794006421763.jpg',
+        img: '/assets/images/marmita_milanesa_1794006421763.jpg',
       },
       {
         id: 'milanesa_frango',
         name: 'Milanesa de Frango',
         price: 25000,
         desc: 'Acompanha arroz branco, feijão e purê de batata cremoso',
-        img: '/src/assets/images/marmita_milanesa_1794006421763.jpg',
+        img: '/assets/images/marmita_milanesa_1794006421763.jpg',
       },
       {
         id: 'parmegiana_carne',
         name: 'Parmegiana de Carne',
         price: 25000,
         desc: 'Bife à milanesa com molho rústico de tomate e queijo gratinado, arroz, feijão e purê',
-        img: '/src/assets/images/parmegiana_carne_prato_1794008852734.jpg',
+        img: '/assets/images/parmegiana_carne_prato_1794008852734.jpg',
       },
       {
         id: 'parmegiana_frango',
         name: 'Parmegiana de Frango',
         price: 25000,
         desc: 'Filé de frango empanado com molho de tomate caseiro e queijo gratinado, arroz, feijão e purê',
-        img: '/src/assets/images/parmegiana_carne_prato_1794008852734.jpg',
+        img: '/assets/images/parmegiana_carne_prato_1794008852734.jpg',
       },
       {
         id: 'strogonoff_carne',
         name: 'Strogonoff de Carne',
         price: 25000,
         desc: 'Carne macia em molho cremoso com cogumelos, arroz e batata palha fininha',
-        img: '/src/assets/images/marmita_strogonoff_1794006422466.jpg',
+        img: '/assets/images/marmita_strogonoff_1794006422466.jpg',
       },
       {
         id: 'strogonoff_frango',
         name: 'Strogonoff de Frango',
         price: 25000,
         desc: 'Cubos tenros de frango com arroz branco e batata palha crocante',
-        img: '/src/assets/images/marmita_strogonoff_1794006422466.jpg',
+        img: '/assets/images/marmita_strogonoff_1794006422466.jpg',
       },
       {
         id: 'frango_manteiga',
         name: 'Filé de Frango Grelhado na Manteiga',
         price: 25000,
         desc: 'Acompanha arroz, feijão, purê de batata e legumes salteados na manteiga',
-        img: '/src/assets/images/frango_grelhado_manteiga_1794008853813.jpg',
+        img: '/assets/images/frango_grelhado_manteiga_1794008853813.jpg',
       },
       {
         id: 'macarrao_almondegas',
         name: 'Macarrão com Almôndegas',
         price: 25000,
         desc: 'Spaghetti ao molho artesanal com almôndegas e queijo parmesão ralado',
-        img: '/src/assets/images/macarrao_com_almondegas_1794008853909.jpg',
+        img: '/assets/images/macarrao_com_almondegas_1794008853909.jpg',
       },
     ],
   },
@@ -93,28 +93,28 @@ const MENU_DATA: MenuCategoryDef[] = [
         name: 'COMBO 1 (Lanche + Marmita + Bebida)',
         price: 40000,
         desc: '01 Pão recheado artesanal + 01 Marmita à escolha + 01 Bebida lata',
-        img: '/src/assets/images/combo_1_individual_1794009125387.jpg',
+        img: '/assets/images/combo_1_individual_1794009125387.jpg',
       },
       {
         id: 'combo_2',
         name: 'COMBO 2 (Com Sobremesa)',
         price: 50000,
-        desc: '01 Pão recheado + 01 Marmita + 01 Bebida lata + 01 Sobremesa no pote',
-        img: '/src/assets/images/combo_2_com_sobremesa_1794009098133.jpg',
+        desc: '01 Pão recheado + 01 Marmita + 01 Bebida lata + 01 Sobremesa à escolha',
+        img: '/assets/images/combo_2_com_sobremesa_1794009098133.jpg',
       },
       {
         id: 'combo_3',
         name: 'COMBO 3 (Almoço & Janta / P/ 2)',
         price: 80000,
         desc: '01 Lanche recheado + 02 Marmitas completas + 02 Bebidas lata + 02 Sobremesas especiais',
-        img: '/src/assets/images/combo_3_almoco_janta_1794008989021.jpg',
+        img: '/assets/images/combo_3_almoco_janta_1794008989021.jpg',
       },
       {
         id: 'combo_brownies',
         name: 'Combo 3 Brownies 70% Cacau',
         price: 50000,
         desc: 'Trio promocional com 3 unidades do brownie 70% (Economize Gs. 10.000)',
-        img: '/src/assets/images/brownie_chocolate_artesanal_1794006424724.jpg',
+        img: '/assets/images/brownie_chocolate_artesanal_1794006424724.jpg',
       },
     ],
   },
@@ -128,35 +128,35 @@ const MENU_DATA: MenuCategoryDef[] = [
         name: 'Pão Calabresa Artesanal',
         price: 25000,
         desc: 'Recheado com calabresa fatiada, muçarela derretida e orégano',
-        img: '/src/assets/images/pao_recheado_artesanal_1794006424953.jpg',
+        img: '/assets/images/pao_recheado_artesanal_1794006424953.jpg',
       },
       {
         id: 'pao_presunto_queijo',
         name: 'Pão Presunto e Queijo',
         price: 25000,
         desc: 'Massa artesanal farta recheada com presunto nobre e queijo mussarela derretido',
-        img: '/src/assets/images/pao_presunto_queijo_artesanal_1794008855211.jpg',
+        img: '/assets/images/pao_presunto_queijo_artesanal_1794008855211.jpg',
       },
       {
         id: 'pao_aveia_canela_mel',
         name: 'Pão de Aveia, Canela e Mel',
         price: 25000,
         desc: 'Pão integral rústico aromático feito com aveia em flocos, canela e mel puro',
-        img: '/src/assets/images/pao_presunto_queijo_artesanal_1794008855211.jpg',
+        img: '/assets/images/pao_presunto_queijo_artesanal_1794008855211.jpg',
       },
       {
         id: 'pao_doce_leite',
         name: 'Pão de Doce de Leite',
         price: 25000,
         desc: 'Trança fofinha artesanal recheada com farto doce de leite cremoso',
-        img: '/src/assets/images/pao_recheado_artesanal_1794006424953.jpg',
+        img: '/assets/images/pao_recheado_artesanal_1794006424953.jpg',
       },
       {
         id: 'pao_tradicional',
         name: 'Pão Tradicional Caseiro',
         price: 20000,
         desc: 'O autêntico pão branco caseiro de fermentação natural macio',
-        img: '/src/assets/images/pao_recheado_artesanal_1794006424953.jpg',
+        img: '/assets/images/pao_recheado_artesanal_1794006424953.jpg',
       },
     ],
   },
@@ -167,31 +167,24 @@ const MENU_DATA: MenuCategoryDef[] = [
     items: [
       {
         id: 'bolo_pudim',
-        name: 'Bolo Pudim (Fatia Gourmet)',
+        name: 'Bolo Pudim',
         price: 40000,
-        desc: 'Pudim caramelizado super cremoso sobre bolo de chocolate úmido',
-        img: '/src/assets/images/sobremesa_bolo_pudim_1794006423708.jpg',
+        desc: 'Pudim caramelizado super cremoso sobre bolo de chocolate úmido artesanal',
+        img: '/assets/images/bolo_pudim_inteiro_1794009678189.jpg',
       },
       {
         id: 'brownie_unidade',
         name: 'Brownie de Chocolate 70% Cacau',
         price: 20000,
         desc: 'Intenso no sabor com casquinha craquelada crocante',
-        img: '/src/assets/images/brownie_chocolate_artesanal_1794006424724.jpg',
+        img: '/assets/images/brownie_chocolate_artesanal_1794006424724.jpg',
       },
       {
         id: 'cuca_alema',
         name: 'Cuca Alemã Doce de Leite e Canela',
         price: 50000,
         desc: 'Farta cobertura de doce de leite com canela e farofa crocante alemã',
-        img: '/src/assets/images/cuca_alema_doce_leite_1794008855213.jpg',
-      },
-      {
-        id: 'sobremesa_pote',
-        name: 'Sobremesa no Pote Gourmet',
-        price: 15000,
-        desc: 'Camadas de brigadeiro de panela e bolo úmido artesanal',
-        img: '/src/assets/images/sobremesa_bolo_pudim_1794006423708.jpg',
+        img: '/assets/images/cuca_alema_doce_leite_1794008855213.jpg',
       },
     ],
   },
@@ -200,7 +193,6 @@ const MENU_DATA: MenuCategoryDef[] = [
     t: '🥤 Bebidas Geladas',
     desc: 'Latas 350ml, sucos e energéticos',
     items: [
-      { id: 'coca_lata', name: 'Coca-Cola Lata 350ml', price: 8000 },
       { id: 'coca_zero_lata', name: 'Coca-Cola Zero Lata 350ml', price: 8000 },
       { id: 'guarana_lata', name: 'Guaraná Antarctica Lata 350ml', price: 8000 },
       { id: 'suco_natural', name: 'Suco Natural em Lata / Polpa 300ml', price: 10000 },
@@ -331,7 +323,13 @@ export default function App() {
     }
 
     const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
-    window.open(waUrl, '_blank');
+    const a = document.createElement('a');
+    a.href = waUrl;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
   };
 
   return (
@@ -342,12 +340,8 @@ export default function App() {
           {/* Official brand emblem from user attachment */}
           <div className="brand-emblem">
             <img
-              src="/public/assets/aistudio/WhatsApp_Image_2026-11-06_at_15.12.12_c7354d9c.jpeg"
+              src="/assets/aistudio/WhatsApp_Image_2026-11-06_at_15.12.12_c7354d9c.jpeg"
               alt="KORIZKO"
-              onError={(e) => {
-                (e.target as HTMLImageElement).src =
-                  '/assets/aistudio/WhatsApp_Image_2026-11-06_at_15.12.12_c7354d9c.jpeg';
-              }}
             />
           </div>
 

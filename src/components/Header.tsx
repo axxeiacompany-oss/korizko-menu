@@ -24,13 +24,9 @@ export const Header: React.FC<HeaderProps> = ({ onOpenFlyer, onOpenAdmin }) => {
             >
               <div className="w-10 h-10 rounded-full border border-amber-400/50 overflow-hidden bg-black flex items-center justify-center shadow-lg group-hover:border-amber-300 transition-colors">
                 <img
-                  src="/public/assets/aistudio/WhatsApp_Image_2026-11-06_at_15.12.12_c7354d9c.jpeg"
+                  src="/assets/aistudio/WhatsApp_Image_2026-11-06_at_15.12.12_c7354d9c.jpeg"
                   alt="KORIZKO"
                   className="w-full h-full object-cover scale-110"
-                  onError={(e) => {
-                    (e.target as HTMLImageElement).src =
-                      '/assets/aistudio/WhatsApp_Image_2026-11-06_at_15.12.12_c7354d9c.jpeg';
-                  }}
                 />
               </div>
               <div className="flex flex-col">
